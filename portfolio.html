@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriella Dunac - Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <!-- Navigation - Pink oval at top -->
+  <nav class="nav-container">
+    <button class="nav-btn" data-page="home">Home</button>
+    <button class="nav-btn" data-page="about">About</button>
+    <button class="nav-btn" data-page="work">Work</button>
+  </nav>
+
+  <!-- Page 1: Home / Portfolio -->
+  <section id="home" class="page active">
+    <div class="content-container">
+      <!-- Three dots in corner -->
+      <div class="window-dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <!-- Logo at top -->
+      <div class="home-logo">
+        <img src="Content/gabriella dunac-photoroom.png" alt="Gabriella Dunac">
+      </div>
+
+      <!-- 3D Carousel -->
+      <div class="carousel-container">
+        <div class="carousel" id="carousel">
+          <div class="carousel-item" style="--i: 0">
+            <video src="Content/CREATIVE TECHNOLIGST (5).mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="carousel-item" style="--i: 1">
+            <video src="Content/CREATIVE TECHNOLIGST (6).mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="carousel-item" style="--i: 2">
+            <video src="Content/CREATIVE TECHNOLIGST (7).mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="carousel-item" style="--i: 3">
+            <video src="Content/CREATIVE TECHNOLIGST (8).mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="carousel-item" style="--i: 4">
+            <video src="Content/weeklywonderid..mp4" autoplay loop muted playsinline></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Page 2: About -->
+  <section id="about" class="page">
+    <div class="content-container about-container">
+      <div class="window-dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <!-- Fixed content - stays locked in place -->
+      <div class="about-fixed">
+        <div class="about-logo">
+          <img src="Content/gabriella dunac-photoroom.png" alt="Logo">
+        </div>
+
+        <div class="creative-tech-img">
+          <img src="Content/CREATIVE TECHNOLIGST.png" alt="Creative Technologist">
+        </div>
+      </div>
+
+      <!-- Scrollable content - moves as you scroll -->
+      <div class="about-scroll">
+        <div class="bio-text-container">
+          <p class="bio-typewriter" id="bioText"></p>
+        </div>
+
+        <div class="arrow-img">
+          <img src="Content/Untitled design (35)-Photoroom.png" alt="Arrow">
+        </div>
+
+        <div class="skills-section">
+          <img src="Content/skills.png" alt="Skills" class="skills-img">
+          <div class="skills-text">
+            <h2>SKILLS</h2>
+            <p class="skills-typewriter" id="skillsText"></p>
+          </div>
+        </div>
+      </div>
+
+      <img src="Content/asciiiplant.jpg" alt="Plant" class="corner-plant">
+    </div>
+  </section>
+
+  <!-- Page 3: Work -->
+  <section id="work" class="page">
+    <div class="content-container work-container">
+      <div class="work-logo">
+        <img src="Content/GABRIELLA DUNAC (1)-Photoroom.png" alt="Gabriella Dunac">
+      </div>
+
+      <div class="work-scroll">
+        <!-- Project 1 -->
+        <div class="work-grid work-reveal">
+          <div class="work-box project-box">
+            <video src="Content/CREATIVE TECHNOLIGST (5).mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="work-box description-box">
+            <h2 class="project-title">P5.JS</h2>
+            <p class="project-description">An interactive carousel built with Python and MediaPipe hand tracking technology. This project reflects my ongoing exploration of making digital experiences more engaging. As marketing evolves toward inclusivity and participation, I've been investigating how thoughtful design and intuitive interaction can create meaningful connections between users and content.</p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="work-grid work-reveal">
+          <div class="work-box project-box">
+            <video src="Content/weeklywonderid..mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="work-box description-box">
+            <h2 class="project-title">TOOLS GENERATOR</h2>
+            <p class="project-description">The Tools tab on my weekly page offers three creative generators: an ASCII filter, a cross stitch pattern creator, and a Weekly ID generator. The Weekly ID feature uses your date of birth and an uploaded image to create a customized ID card inspired by the Weekly Wonder aesthetic. Each generated ID can be exported in an Instagram friendly format for easy sharing.</p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="work-grid work-reveal">
+          <div class="work-box project-box">
+            <video src="Content/CREATIVE TECHNOLIGST (9).mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="work-box description-box">
+            <h2 class="project-title">EADEM</h2>
+            <p class="project-description">A collaborative project developed for a skincare brand, focusing on creating a digital presence that reflects the brand's identity and values. This work combines clean visual design with user-centered functionality to deliver an authentic and accessible experience.</p>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="work-grid work-reveal">
+          <div class="work-box project-box">
+            <video src="Content/CREATIVE TECHNOLIGST (6).mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="work-box description-box">
+            <h2 class="project-title">QUIET ARCHIVE</h2>
+            <p class="project-description">An architectural visualization project exploring minimalist design principles through digital media. This work examines how spatial concepts translate to screen-based experiences, balancing form and function in a serene visual presentation.</p>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="work-grid work-reveal">
+          <div class="work-box project-box">
+            <video src="Content/CREATIVE TECHNOLIGST (8).mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="work-box description-box">
+            <h2 class="project-title">LYAYB</h2>
+            <p class="project-description">A conceptual website mockup featuring 3D scanning technology integration. This project explores the intersection of emerging technologies and web design, demonstrating how innovative tools can enhance digital storytelling and user engagement.</p>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="work-grid work-reveal">
+          <div class="work-box project-box">
+            <video src="Content/CREATIVE TECHNOLIGST (7).mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="work-box description-box">
+            <h2 class="project-title">WEEKLY WONDER</h2>
+            <p class="project-description">A creative exploration platform designed to inspire and engage through weekly interactive challenges. This project showcases my interest in building community-driven experiences that encourage experimentation and discovery.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
